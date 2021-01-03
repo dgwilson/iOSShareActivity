@@ -39,10 +39,10 @@
                                     <action selector="shareAllTheThings:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ofF-li-RNz"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Demo of Activity sharesheet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Tc-W0-yqK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Demo of Activity sharesheet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Tc-W0-yqK">
                                 <rect key="frame" x="20" y="100" width="374" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="Wug-Fu-UZa"/>
+                                    <constraint firstAttribute="height" constant="21" id="OQa-37-Pkm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
@@ -53,12 +53,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="VRf-ZL-Mos" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Qc-QJ-IqV"/>
+                            <constraint firstItem="8Tc-W0-yqK" firstAttribute="leading" secondItem="VRf-ZL-Mos" secondAttribute="leading" id="0dn-59-otI"/>
                             <constraint firstItem="VRf-ZL-Mos" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="8JE-p7-CT7"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VRf-ZL-Mos" secondAttribute="bottom" priority="200" constant="641" id="D0G-Pg-fEB"/>
-                            <constraint firstItem="VRf-ZL-Mos" firstAttribute="top" secondItem="8Tc-W0-yqK" secondAttribute="bottom" constant="62" id="Eqz-Oq-MeT"/>
-                            <constraint firstItem="8Tc-W0-yqK" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="PcY-hR-4dv"/>
-                            <constraint firstItem="8Tc-W0-yqK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="k4H-Yb-j0o"/>
-                            <constraint firstItem="8Tc-W0-yqK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="56" id="yY5-ek-6zj"/>
+                            <constraint firstItem="8Tc-W0-yqK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="56" id="LyR-Ah-Poj"/>
+                            <constraint firstItem="VRf-ZL-Mos" firstAttribute="top" secondItem="8Tc-W0-yqK" secondAttribute="bottom" constant="62" id="dla-3r-4ho"/>
+                            <constraint firstItem="8Tc-W0-yqK" firstAttribute="trailing" secondItem="VRf-ZL-Mos" secondAttribute="trailing" id="lkr-gZ-8Jq"/>
                         </constraints>
                     </view>
                     <connections>
